@@ -10,7 +10,7 @@ This was a project for my highschool CS course. We were restricted to working wi
 * `vars.h` : Contains global variables and structure definitions for the player and enemies.
 * `gfx.h` : Contains function definitions to generate the game environment.
 * `scores.h` : Contains function definitions for appending to/diplaying a highscores database.
-* `hs_file.cpp` : Program to create/clear the highscore database file
+* `hs_file.cpp` : Program to create/clear the highscore database file.
 
 # Instructions
 1. Place all the files from the Velocity folder into the BIN folder of your local TurboC++ directory.
@@ -34,9 +34,9 @@ Retro game-over screen
 
 * By seeding the randomization function with the current system time, we ensured that we got completely arbitrary values. These are used to determine the entry lane of each new barricade onto the screen once it has been crossed.
 
-* System time is also used to keep score using a simple timer which increases every second. The number of seconds that have passed since the player started playing is displayed as the player's score.
+* System time is also used to keep score using a simple timer which increases every second. The number of seconds that have passed since the player started playing is displayed as the player's score. The speed of the car is increased when it attains scores which are multiples of 25 by decreasing the time delays at the end of each iteration of the main game loop.
 
-* A self updating highscores leaderboard has been incorporated. If a new player beats one of the top ten scores, their name is automatically added to the binary file, the contents of which are displayed after every round of play.
+* A self updating highscores leaderboard is maintained in a binary file. If a new player beats one of the top ten scores, their name is automatically added to an ordered list, the contents of which are displayed after every round of play.
 
 # Authors
 * Chaitanya Joshi
