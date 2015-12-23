@@ -7,7 +7,7 @@ This was a project for my highschool CS course. We were restricted to working wi
 
 **About the files:**
 * `main.cpp` : Main driver program to run Velocity.
-* `vars.h>` : Contains global variables and structure definitions for the player and enemies.
+* `vars.h` : Contains global variables and structure definitions for the player and enemies.
 * `gfx.h` : Contains function definitions to generate the game environment.
 * `scores.h` : Contains function definitions for appending to/diplaying a highscores database.
 * `hs_file.cpp` : Program to create/clear the highscore database file
