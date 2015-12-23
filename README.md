@@ -5,10 +5,17 @@ Players control a red and blue coloured car dashing through a never ending highw
 
 This was a project for my highschool CS course. We were restricted to working with the ancient **TurboC++ compiler**, hence some of the code may be redundant now! However, the concepts demonstrated in coding a simple 2D game are still relevant.
 
+**About the files:**
+* `main.cpp` : Main driver program to run Velocity.
+* `vars.h>` : Contains global variables and structure definitions for the player and enemies.
+* `gfx.h` : Contains function definitions to generate the game environment.
+* `scores.h` : Contains function definitions for appending to/diplaying a highscores database.
+* `hs_file.cpp` : Program to create/clear the highscore database file
+
 # Instructions
 1. Place all the files from the Velocity folder into the BIN folder of your local TurboC++ directory.
-2. Compile hs_file.cpp using TurboC++ to create the empty highscores database file (Compiling hs_file.cpp again will clear the highscores in the database).
-3. Compile main.cpp using TurboC++ to play the game.
+2. Compile `hs_file.cpp` using TurboC++ to create the empty highscores database file (Compiling it again will clear the highscores in the database).
+3. Compile `main.cpp` using TurboC++ to play the game.
 
 # Screenshots
 Retro menu/splash screen
