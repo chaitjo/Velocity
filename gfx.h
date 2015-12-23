@@ -24,11 +24,6 @@ int checkCrash(int px, int py, int ex1, int ex2, int ex3, int ey, int ey2)
 void score(int start)				
 {
 	sprintf(scr, "%d", (clock()-start)/10);
-	
-	char spd [10];
-	sprintf(spd, "%d", speed);
-	outtextxy(getmaxx()-100, 150, spd);
-
 	settextstyle(10, 0, 4);
 	outtextxy(getmaxx()-100, 50, scr);
 
