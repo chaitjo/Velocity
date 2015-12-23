@@ -30,7 +30,7 @@ void main()
 	enemy.pos3= RIGHT;
 
 	char input= menu();		//Displays the menu with instructions to play the game or quit the program (if return value of menu() is 'q').
-	int start= clock();		//Assigns the current processor time to the integer start. Used in the score() function.
+	int start= clock();		//Assigns the current processor time to the integer start. Used in the score() function in scores.h.
 
 	//Start of main game loop.
 	while(input!= 'q')
