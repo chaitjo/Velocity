@@ -53,10 +53,11 @@ void displayScores()
 	ifstream f;
 	f.open("Highscores.dat", ios::binary);
 
+	cout<<endl<<endl<<endl;
 	pl temp;
 	int count= 1;
 	while((f.read((char*)&temp, sizeof(temp))) && count<=10)
-		cout<<count++<<". "<<temp.name<<"-> "<<temp.score<<endl;
+		cout<<"\t"<<count++<<". "<<temp.name<<"-> "<<temp.score<<endl;
 
 	f.close();
 }
