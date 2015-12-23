@@ -1,9 +1,11 @@
+//Main driver program to run Velocity.
+
 #include <conio.h>		//Provides console input/output functions.
 #include <stdio.h>		//Provides streams to operate with keyboard.
 
-#include "scores.h"		//Contains function definitions for appending to/diplaying a highscores database.
-#include "gfx.h"		//Contains function definitions to generate the game environment.
 #include "vars.h"		//Contains global variables and structure definitions for the player and enemies.
+#include "gfx.h"		//Contains function definitions to generate the game environment.
+#include "scores.h"		//Contains function definitions for appending to/diplaying a highscores database.
 
 void main()
 {
