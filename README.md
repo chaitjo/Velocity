@@ -1,4 +1,4 @@
-# Velocity
+# Overview
 Velocity is a 2D arcade game made in C++ using the graphics.h library. 
 
 Players control a red and blue coloured car dashing through a never ending highway, and must dodge the striped barriers by switching lanes till they eventually crash. A timer is used to calculate the score. To increase difficulty, the ‘velocity’ of the car keeps increasing when it attains scores which are multiples of 25.
