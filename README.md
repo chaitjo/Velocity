@@ -1,5 +1,5 @@
 # Overview
-Velocity is a 2D arcade game made in C++ using the graphics.h library. 
+Velocity is a simple 2D arcade game made in C++ using the graphics.h library. 
 
 Players control a red and blue coloured car dashing through a never ending highway, and must dodge the striped barriers by switching lanes till they eventually crash. A timer is used to calculate the score. To increase difficulty, the ‘velocity’ of the car keeps increasing when it attains scores which are multiples of 25.
 
@@ -18,14 +18,9 @@ This was a project for my highschool CS course. We were restricted to working wi
 3. Compile `main.cpp` using TurboC++ to play the game.
 
 # Screenshots
-Retro menu/splash screen
-![alt tag](https://raw.githubusercontent.com/ckjoshi9/Velocity/master/Screenshots/screenshot1.jpg)
+<img src="https://raw.githubusercontent.com/ckjoshi9/Velocity/master/Screenshots/screenshot2.jpg" width="98.5%">
 
-Gameplay screenshot
-![alt tag](https://raw.githubusercontent.com/ckjoshi9/Velocity/master/Screenshots/screenshot2.jpg)
-
-Retro game-over screen
-![alt tag](https://raw.githubusercontent.com/ckjoshi9/Velocity/master/Screenshots/screenshot3.jpg)
+<img src="https://raw.githubusercontent.com/ckjoshi9/Velocity/master/Screenshots/screenshot1.jpg" width="49%"> <img src="https://raw.githubusercontent.com/ckjoshi9/Velocity/master/Screenshots/screenshot3.jpg" width="49%"> 
 
 # Features
 * The entire game runs during a while loop sequence called the ‘main game loop’. To set the rate at which the screen updates itself, or the frames-per-second (FPS), time delays are used at end of each iteration of the loop.
@@ -37,7 +32,3 @@ Retro game-over screen
 * System time is also used to keep score using a simple timer which increases every second. The number of seconds that have passed since the player started playing is displayed as the player's score. The speed of the car is increased when it attains scores which are multiples of 25 by decreasing the time delays at the end of each iteration of the main game loop.
 
 * A self updating highscores leaderboard is maintained in a binary file. If a new player beats one of the top ten scores, their name is automatically added to an ordered list, the contents of which are displayed after every round of play.
-
-# Authors
-* Chaitanya Joshi
-* Rachiitesh Kumar
