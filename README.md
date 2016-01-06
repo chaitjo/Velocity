@@ -32,3 +32,7 @@ This was a project for my highschool CS course. We were restricted to working wi
 * System time is also used to keep score using a simple timer which increases every second. The number of seconds that have passed since the player started playing is displayed as the player's score. The speed of the car is increased when it attains scores which are multiples of 25 by decreasing the time delays at the end of each iteration of the main game loop.
 
 * A self updating highscores leaderboard is maintained in a binary file. If a new player beats one of the top ten scores, their name is automatically added to an ordered list, the contents of which are displayed after every round of play.
+
+# To-do
+1. Add proper documentation about function parameters to `gfx.h`.
+2. Create a GUI for the highscores leaderboard.
