@@ -18,9 +18,9 @@ This was a project for my highschool CS course. We were restricted to working wi
 3. Compile `main.cpp` using TurboC++ to play the game.
 
 # Screenshots
-<img src="https://raw.githubusercontent.com/ckjoshi9/Velocity/master/Screenshots/screenshot2.jpg" width="98.5%">
+<img src="https://raw.githubusercontent.com/chaitjo/Velocity/master/Screenshots/screenshot2.jpg" width="98.5%">
 
-<img src="https://raw.githubusercontent.com/ckjoshi9/Velocity/master/Screenshots/screenshot1.jpg" width="49%"> <img src="https://raw.githubusercontent.com/ckjoshi9/Velocity/master/Screenshots/screenshot3.jpg" width="49%"> 
+<img src="https://raw.githubusercontent.com/chaitjo/Velocity/master/Screenshots/screenshot1.jpg" width="49%"> <img src="https://raw.githubusercontent.com/chaitjo/Velocity/master/Screenshots/screenshot3.jpg" width="49%"> 
 
 # Features
 * The entire game runs during a while loop sequence called the ‘main game loop’. To set the rate at which the screen updates itself, or the frames-per-second (FPS), time delays are used at end of each iteration of the loop.
